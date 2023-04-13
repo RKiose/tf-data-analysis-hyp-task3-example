@@ -9,4 +9,4 @@ def solution(x: np.array, y:np.array) -> bool: # Одна или две выбо
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
    pvalue = ttest_ind(x,y,equal_var=False).pvalue
-   return True if pvalue < 0.03 else False # Ваш ответ, True или False
+   return True if pvalue < 0.09 else False # Ваш ответ, True или False
